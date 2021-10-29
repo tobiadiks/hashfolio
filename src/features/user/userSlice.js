@@ -8,8 +8,9 @@ export const userSlice = createSlice({
       user: {
         username: "",
         loggedIn: false,
-      },
-    },
+      }
+    }
+  },
     reducers: {
       //reducers
       login: (state, action) => {
@@ -22,7 +23,7 @@ export const userSlice = createSlice({
       },
     },
   },
-});
+);
 
 //generate action creators
 

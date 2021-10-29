@@ -5,7 +5,7 @@ import { login, logout } from "./features/user/userSlice";
 import { store } from "./app/store";
 
 function App() {
-  const user = useSelector((state) => state.user.value);
+  const user = useSelector((state) => state);
   return (
     <div className="App">
       {console.log(user)}
